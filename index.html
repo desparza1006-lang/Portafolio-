@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>David Esparza | Software Developer & AI Integrator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portafolio de David Esparza, desarrollador de software especializado en backend, APIs, automatización e integración de IA. Experiencia en Python, FastAPI, PHP, Laravel y bases de datos." />
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Font para mejor tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navegación -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <i class="bi bi-code-slash"></i>
+        David Esparza
+      </div>
+
+      <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#skills">Tecnologías</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Hero Rediseñado -->
+    <section id="inicio" class="hero">
+      <div class="hero-bg-decoration"></div>
+      <div class="container hero-grid">
+        <section class="hero-text">
+          <div class="badge badge-ai">
+            <i class="bi bi-code-square"></i>
+            Software Developer & AI Integrator
+          </div>
+          <h1>
+            Hola, soy <span class="gradient-text">David Esparza</span>.
+          </h1>
+          <p class="hero-subtitle">
+            Desarrollador de software con experiencia en <strong>backend, APIs y automatización</strong>. 
+            Construyo soluciones robustas con Python, PHP y JavaScript, integrando inteligencia artificial 
+            cuando aporta valor real al proyecto.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn btn-primary">
+              <i class="bi bi-rocket-takeoff"></i>
+              Ver Proyectos
+            </a>
+            <a href="#experiencia" class="btn btn-outline">
+              <i class="bi bi-briefcase"></i>
+              Mi Experiencia
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Años Exp.</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Proyectos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">Full</span>
+              <span class="stat-label">Stack</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="hero-card">
+          <div class="hero-card-inner hero-card-photo">
+            <div class="avatar-glow"></div>
+            <img src="img/4.jpg" alt="Foto de David Esparza" class="hero-avatar-img" />
+            <p class="hero-avatar-name">David Esparza</p>
+            <p class="hero-avatar-role">Software Developer & AI Integrator</p>
+            <div class="hero-tech-stack">
+              <span class="tech-mini" title="Python"><i class="bi bi-filetype-py"></i></span>
+              <span class="tech-mini" title="PHP"><i class="bi bi-filetype-php"></i></span>
+              <span class="tech-mini" title="JavaScript"><i class="bi bi-filetype-js"></i></span>
+              <span class="tech-mini" title="Databases"><i class="bi bi-database"></i></span>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator">
+        <a href="#experiencia" aria-label="Scroll to experience">
+          <i class="bi bi-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Experiencia Laboral - Nueva Sección -->
+    <section id="experiencia" class="section section-experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Trayectoria</span>
+          <h2 class="section-title">Experiencia Profesional</h2>
+          <p class="section-subtitle">
+            Mi recorrido en el sector tecnológico, desde soporte técnico hasta desarrollo de software profesional.
+          </p>
+        </div>
+
+        <div class="experience-container">
+          <!-- Timeline Line -->
+          <div class="timeline-line"></div>
+          
+          <!-- IT Corp -->
+          <div class="experience-block">
+            <div class="experience-company">
+              <div class="company-badge">
+                <i class="bi bi-building"></i>
+              </div>
+              <div class="company-info">
+                <h3 class="company-name">IT Corp</h3>
+                <span class="company-location">Tecnología y Servicios TI</span>
+              </div>
+            </div>
+            
+            <div class="experience-roles">
+              <!-- Rol 1: Desarrollador -->
+              <div class="role-card role-current">
+                <div class="role-header">
+                  <div class="role-title-group">
+                    <h4 class="role-title">Desarrollador de Software</h4>
+                    <span class="role-period">
+                      <i class="bi bi-calendar3"></i>
+                      2025 – Enero 2026
+                    </span>
+                  </div>
+                  <span class="role-badge badge-past">1 AÑO</span>
+                </div>
+                <ul class="role-functions">
+                  <li>Desarrollo y mantenimiento de aplicaciones backend en <strong>PHP</strong> con arquitectura escalable</li>
+                  <li>Diseño y optimización de bases de datos <strong>MariaDB/MySQL</strong> para alto rendimiento</li>
+                  <li>Despliegue y configuración de aplicaciones en <strong>servidores Linux</strong></li>
+                  <li>Implementación de módulos personalizados según requerimientos del negocio</li>
+                  <li>Integración y mantenimiento de funcionalidades en sistemas internos legacy</li>
+                </ul>
+                <div class="role-tech">
+                  <span class="role-tech-item">PHP</span>
+                  <span class="role-tech-item">MariaDB</span>
+                  <span class="role-tech-item">MySQL</span>
+                  <span class="role-tech-item">Linux</span>
+                  <span class="role-tech-item">Apache</span>
+                </div>
+              </div>
+
+              <!-- Rol 2: Soporte -->
+              <div class="role-card">
+                <div class="role-header">
+                  <div class="role-title-group">
+                    <h4 class="role-title">Soporte Técnico TI</h4>
+                    <span class="role-period">
+                      <i class="bi bi-calendar3"></i>
+                      2024 – 2025
+                    </span>
+                  </div>
+                  <span class="role-badge badge-past">1 año</span>
+                </div>
+                <ul class="role-functions">
+                  <li>Soporte técnico a usuarios: hardware, software y resolución de incidencias</li>
+                  <li>Administración y solución de problemas en <strong>Microsoft Outlook</strong></li>
+                  <li>Diagnóstico de problemas de red, IP y conectividad</li>
+                  <li>Mantenimiento preventivo y correctivo de laptops y equipos de cómputo</li>
+                  <li>Gestión de tickets y documentación de procesos técnicos</li>
+                </ul>
+                <div class="role-tech">
+                  <span class="role-tech-item">Windows</span>
+                  <span class="role-tech-item">Office 365</span>
+                  <span class="role-tech-item">Redes</span>
+                  <span class="role-tech-item">Hardware</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos Destacados - Nuevo Diseño -->
+    <section id="proyectos" class="section section-projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Portfolio</span>
+          <h2 class="section-title">Proyectos Destacados</h2>
+          <p class="section-subtitle">
+            Aplicaciones de software que demuestran mis habilidades en desarrollo full-stack, 
+            automatización, análisis de datos e integración de IA. Cada proyecto resuelve 
+            problemas reales con tecnologías modernas.
+          </p>
+        </div>
+
+        <!-- Proyecto 1: TalentMatch AI -->
+        <article class="project-card project-card-featured fade-in-up">
+          <div class="project-image-wrapper">
+            <img src="img/talenmatch.png" alt="TalentMatch AI - Sistema de Matching de CVs" class="project-image" />
+            <div class="project-image-overlay">
+              <span class="project-version">v1.1.0</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <span class="project-category">AI Matching System</span>
+              <h3 class="project-title">TalentMatch AI</h3>
+            </div>
+            <p class="project-description">
+              Sistema inteligente de análisis de CVs que utiliza <strong>embeddings</strong> 
+              para comparar perfiles profesionales con ofertas laborales. Extrae información de PDFs, 
+              calcula scores de compatibilidad multi-factor y genera recomendaciones personalizadas 
+              con enfoque en privacidad de datos.
+            </p>
+            <div class="project-features">
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Embeddings locales</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Parsing de PDFs</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Matching semántico</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Score ponderado</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge tech-fastapi">FastAPI</span>
+              <span class="tech-badge tech-next">Next.js</span>
+              <span class="tech-badge tech-python">Python</span>
+              <span class="tech-badge tech-ollama">Ollama</span>
+              <span class="tech-badge tech-sqlite">SQLite</span>
+              <span class="tech-badge tech-ts">TypeScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/desparza1006-lang/talentmatch-ai" target="_blank" rel="noopener" class="link-primary">
+                <i class="bi bi-github"></i> Ver código
+              </a>
+              <span class="project-status status-completed">
+                <i class="bi bi-check-circle-fill"></i> v1.1.0 Estable
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: VozAI MVP -->
+        <article class="project-card project-card-featured fade-in-up">
+          <div class="project-image-wrapper">
+            <img src="img/con.png" alt="VozAI MVP - Asistente de Voz" class="project-image" />
+            <div class="project-image-overlay">
+              <span class="project-version">v1.0</span>
+              <span class="project-version version-dev">v1.1 en desarrollo</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <span class="project-category">Voice AI Assistant</span>
+              <h3 class="project-title">VozAI MVP</h3>
+            </div>
+            <p class="project-description">
+              Asistente de voz inteligente que escucha comandos, 
+              transcribe audio a texto usando <strong>Whisper</strong>, procesa consultas con 
+              modelos locales via <strong>Ollama</strong>, y responde mediante síntesis de voz. 
+              Incluye memoria conversacional persistente en SQLite.
+            </p>
+            <div class="project-features">
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> STT con Whisper</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> TTS integrado</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Memoria persistente</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> 100% Offline</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge tech-python">Python</span>
+              <span class="tech-badge tech-whisper">Whisper</span>
+              <span class="tech-badge tech-ollama">Ollama</span>
+              <span class="tech-badge tech-tkinter">CustomTkinter</span>
+              <span class="tech-badge tech-sqlite">SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/desparza1006-lang/VozAI_MVP" target="_blank" rel="noopener" class="link-primary">
+                <i class="bi bi-github"></i> Ver código
+              </a>
+              <span class="project-status status-progress">
+                <i class="bi bi-circle-fill"></i> v1.1 en desarrollo
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: PredictMatch -->
+        <article class="project-card project-card-featured fade-in-up">
+          <div class="project-image-wrapper">
+            <img src="img/predictmatch.png" alt="PredictMatch - Análisis Predictivo" class="project-image" />
+            <div class="project-image-overlay">
+              <span class="project-version">v1.1.0</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <span class="project-category">Predictive Analytics</span>
+              <h3 class="project-title">PredictMatch</h3>
+            </div>
+            <p class="project-description">
+              Plataforma de <strong>analítica predictiva</strong> para partidos de fútbol. 
+              Analiza estadísticas históricas de equipos, procesa datos con modelos de ML 
+              y genera predicciones de resultados con explicación de factores clave. 
+              Interfaz moderna con visualización de datos en tiempo real.
+            </p>
+            <div class="project-features">
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Machine Learning</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> API de datos deportivos</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Dashboard interactivo</span>
+              <span class="feature-tag"><i class="bi bi-check-circle"></i> Explicaciones IA</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge tech-fastapi">FastAPI</span>
+              <span class="tech-badge tech-react">React</span>
+              <span class="tech-badge tech-python">Python</span>
+              <span class="tech-badge tech-ml">scikit-learn</span>
+              <span class="tech-badge tech-pandas">pandas</span>
+              <span class="tech-badge tech-sqlite">SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/desparza1006-lang/predictmatch" target="_blank" rel="noopener" class="link-primary">
+                <i class="bi bi-github"></i> Ver código
+              </a>
+              <span class="project-status status-completed">
+                <i class="bi bi-check-circle-fill"></i> v1.1.0 Estable
+              </span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills Rediseñada -->
+    <section id="skills" class="section section-alt section-skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Habilidades</span>
+          <h2 class="section-title">Tecnologías & Tools</h2>
+          <p class="section-subtitle">
+            Stack tecnológico versátil enfocado en desarrollo backend robusto, 
+            frontend moderno e integración de inteligencia artificial.
+          </p>
+        </div>
+
+        <!-- Categoría: Lenguajes -->
+        <div class="skills-category">
+          <h3 class="skills-category-title">
+            <i class="bi bi-code-slash"></i> Lenguajes de Programación
+          </h3>
+          <div class="skills-list">
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-python"><i class="bi bi-filetype-py"></i></span>
+              <span class="skill-label">Python</span>
+            </div>
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-js"><i class="bi bi-filetype-js"></i></span>
+              <span class="skill-label">JavaScript</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-ts"><i class="bi bi-filetype-tsx"></i></span>
+              <span class="skill-label">TypeScript</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-php"><i class="bi bi-filetype-php"></i></span>
+              <span class="skill-label">PHP</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-filetype-sql"></i></span>
+              <span class="skill-label">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría: Frontend -->
+        <div class="skills-category">
+          <h3 class="skills-category-title">
+            <i class="bi bi-window"></i> Frontend
+          </h3>
+          <div class="skills-list">
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-react"><i class="bi bi-filetype-tsx"></i></span>
+              <span class="skill-label">React</span>
+            </div>
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-next"><i class="bi bi-lightning-charge"></i></span>
+              <span class="skill-label">Next.js</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-filetype-html"></i></span>
+              <span class="skill-label">HTML5</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-filetype-css"></i></span>
+              <span class="skill-label">CSS3</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-bootstrap"></i></span>
+              <span class="skill-label">Bootstrap</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-phone"></i></span>
+              <span class="skill-label">Responsive Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría: Backend -->
+        <div class="skills-category">
+          <h3 class="skills-category-title">
+            <i class="bi bi-hdd-network"></i> Backend & APIs
+          </h3>
+          <div class="skills-list">
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-fastapi"><i class="bi bi-lightning-charge-fill"></i></span>
+              <span class="skill-label">FastAPI</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-laravel"><i class="bi bi-braces-asterisk"></i></span>
+              <span class="skill-label">Laravel</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-node"><i class="bi bi-hdd-rack"></i></span>
+              <span class="skill-label">Node.js</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-arrow-left-right"></i></span>
+              <span class="skill-label">REST APIs</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-shield-check"></i></span>
+              <span class="skill-label">JWT Auth</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría: Bases de Datos -->
+        <div class="skills-category">
+          <h3 class="skills-category-title">
+            <i class="bi bi-database"></i> Bases de Datos
+          </h3>
+          <div class="skills-list">
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-mysql"><i class="bi bi-database-fill"></i></span>
+              <span class="skill-label">MySQL</span>
+            </div>
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-mariadb"><i class="bi bi-database-fill"></i></span>
+              <span class="skill-label">MariaDB</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-sqlserver"><i class="bi bi-server"></i></span>
+              <span class="skill-label">SQL Server</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-sqlite"><i class="bi bi-database"></i></span>
+              <span class="skill-label">SQLite</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría: IA y Automatización -->
+        <div class="skills-category">
+          <h3 class="skills-category-title">
+            <i class="bi bi-cpu"></i> IA y Automatización
+          </h3>
+          <div class="skills-list">
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-ai"><i class="bi bi-robot"></i></span>
+              <span class="skill-label">Ollama</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-ai"><i class="bi bi-soundwave"></i></span>
+              <span class="skill-label">Whisper</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-ai"><i class="bi bi-vector-pen"></i></span>
+              <span class="skill-label">Embeddings</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-ml"><i class="bi bi-graph-up"></i></span>
+              <span class="skill-label">scikit-learn</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-ml"><i class="bi bi-table"></i></span>
+              <span class="skill-label">pandas</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-mic"></i></span>
+              <span class="skill-label">TTS/STT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría: Herramientas -->
+        <div class="skills-category">
+          <h3 class="skills-category-title">
+            <i class="bi bi-tools"></i> Herramientas & DevOps
+          </h3>
+          <div class="skills-list">
+            <div class="skill-pill skill-highlight">
+              <span class="skill-icon skill-git"><i class="bi bi-git"></i></span>
+              <span class="skill-label">Git & GitHub</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-docker"><i class="bi bi-box-seam"></i></span>
+              <span class="skill-label">Docker</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon skill-linux"><i class="bi bi-terminal"></i></span>
+              <span class="skill-label">Linux</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-cloud"></i></span>
+              <span class="skill-label">VPS / Cloud</span>
+            </div>
+            <div class="skill-pill">
+              <span class="skill-icon"><i class="bi bi-gear"></i></span>
+              <span class="skill-label">CI/CD Básico</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Especialización y Enfoque -->
+        <div class="skills-grid">
+          <div class="skill-column">
+            <h3><i class="bi bi-stars"></i> Especialización</h3>
+            <ul>
+              <li>Desarrollo <strong>backend robusto</strong> con Python (FastAPI) y PHP (Laravel)</li>
+              <li>Diseño de <strong>APIs RESTful</strong> escalables y documentadas</li>
+              <li>Modelado y optimización de <strong>bases de datos relacionales</strong></li>
+              <li>Integración de <strong>IA/ML</strong> en aplicaciones prácticas</li>
+              <li>Automatización de procesos y <strong>scripts de utilidad</strong></li>
+            </ul>
+          </div>
+
+          <div class="skill-column">
+            <h3><i class="bi bi-bullseye"></i> Enfoque Profesional</h3>
+            <ul>
+              <li>Desarrollo <strong>full-stack</strong> con atención al detalle</li>
+              <li>Código limpio, mantenible y bien documentado</li>
+              <li><strong>Resolución de problemas</strong> y pensamiento analítico</li>
+              <li>Aprendizaje continuo de nuevas tecnologías</li>
+              <li>Colaboración en equipos ágiles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section section-contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Contacto</span>
+          <h2 class="section-title">Trabajemos juntos</h2>
+          <p class="section-subtitle">
+            ¿Tienes un proyecto en mente? Estoy abierto a oportunidades de colaboración 
+            en desarrollo de software, automatización e integración de IA.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:desparza1006@gmail.com" class="contact-card">
+            <div class="contact-icon contact-icon-mail">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div class="contact-info">
+              <strong>Email</strong>
+              <span>desparza1006@gmail.com</span>
+            </div>
+            <i class="bi bi-arrow-right contact-arrow"></i>
+          </a>
+
+          <a href="https://github.com/desparza1006-lang" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon contact-icon-github">
+              <i class="bi bi-github"></i>
+            </div>
+            <div class="contact-info">
+              <strong>GitHub</strong>
+              <span>@desparza1006-lang</span>
+            </div>
+            <i class="bi bi-arrow-right contact-arrow"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/david-esparza-852214295/" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon contact-icon-linkedin">
+              <i class="bi bi-linkedin"></i>
+            </div>
+            <div class="contact-info">
+              <strong>LinkedIn</strong>
+              <span>David Esparza</span>
+            </div>
+            <i class="bi bi-arrow-right contact-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Simplificado -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-main">
+        <h3 class="footer-name">David Esparza</h3>
+        <p class="footer-text">
+          Software Developer & AI Integrator. Especializado en backend, 
+          APIs, automatización e integración de inteligencia artificial.
+        </p>
+        <div class="footer-social">
+          <a href="https://github.com/desparza1006-lang" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/david-esparza-852214295/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:desparza1006@gmail.com" aria-label="Email">
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading">Enlaces Rápidos</h4>
+        <ul class="footer-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#skills">Tecnologías</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> David Esparza. Todos los derechos reservados.</p>
+      <p class="footer-note">Desarrollado con <i class="bi bi-heart-fill"></i> y mucho café</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
