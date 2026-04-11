@@ -1488,15 +1488,28 @@ main {
   .footer-content {
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 3rem 0 2rem;
+    padding: 3rem 1.5rem 2rem;
   }
   
   .footer-links-col {
     justify-self: start;
+    padding-left: 0.25rem;
   }
   
   .footer-main {
     max-width: none;
+    padding-left: 0.25rem;
+  }
+  
+  .footer-social {
+    padding-left: 0.25rem;
+  }
+  
+  .footer-bottom {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    text-align: left;
+    align-items: flex-start;
   }
 }
 
@@ -1718,6 +1731,17 @@ main {
   .tech-badge {
     font-size: 0.75rem;
     padding: 0.25rem 0.6rem;
+  }
+  
+  /* Footer spacing for small mobile screens */
+  .footer-content {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .footer-bottom {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 
